@@ -11,4 +11,5 @@ TARGET_PRODUCT_SHORT := $(subst omni_,,$(TARGET_PRODUCT_SHORT))
 # Apply it to build.prop
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=OmniPlus-$(ROM_VERSION) \
-    ro.omni.version=$(ROM_VERSION)
+    ro.omni.version=$(ROM_VERSION) \
+ro.omniplus.codename=TheFlyingDutchman ## DEFINE O+ (OMNIPLUS) CODENAME. note: not used in settings app yet.
